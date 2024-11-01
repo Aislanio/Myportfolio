@@ -245,6 +245,10 @@ header .cv a:hover{
     font-weight: 400;
 }
 
+.exp_myname img{
+    width: 100%;
+    max-width: 3vh;
+}
 .exp_numbers .n1{
  color: white;
  background-color: black;
