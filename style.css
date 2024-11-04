@@ -13,6 +13,9 @@
     box-sizing: border-box;
     font-family: var(--main-family);
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
     min-width: 100vh;
@@ -254,3 +257,117 @@ header .cv a:hover{
  background-color: black;
 }
 
+
+.projetos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+
+
+}
+.project_details img{
+    width: 100%;
+    max-width: 6vh;
+}
+
+.project_details div{
+    margin-top: 3vh;
+    text-align: center;
+}
+.project_details div h3{
+    font-size: 3em;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card{
+    width: 170vh;
+    height: 25vh;
+    border: 1px solid black;
+    
+    padding: 0 5vh;
+    margin-bottom: 5vh;
+}
+.card a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-decoration: none;
+    padding: 0 5vh;
+    color: black;
+}
+.card:hover{
+    background-color: black;
+    
+}
+.card:hover .card_title p {
+    color: #ff4900;
+} 
+.card:hover .lingu p{
+    color: #ff4800b6;
+}
+.card:hover .card_title span {
+    color: rgba(255, 255, 255, 0.692);
+} 
+.card .card_title{
+    display: flex;
+}
+.card .card_title p{
+    font-family: var(--Title-family);
+    font-size: 2em;
+}
+.card .card_title span{
+    color: rgba(0, 0, 0, 0.616);
+}
+.card img{
+    width: 100%;
+    max-width: 30vh;
+    border-radius: 10px;
+    margin-right: 5vh;
+}
+.skils{
+    margin-top: 5vh;
+    display: flex;
+}
+.skils img{
+    width: 100%;
+    max-width: 15vh;
+    margin-right: 5vh;
+}
+
+.redes{
+    margin-top: 5vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+    height: 13vh;
+    background-color: #ff4800;
+    color: white;
+}
